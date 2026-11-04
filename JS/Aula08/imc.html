@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cálculo IMC</h1>
+
+    <label for="peso">Peso (em kg)</label>
+    <input type="number" name="peso" id="peso">
+
+    <label for="alt">Altura (em m)</label>
+    <input type="number" name="alt" id="alt">
+
+    <h3>Seu IMC é: </h3>
+
+    <button onclick="calcularImc()">Calcular IMC</button>
+
+    <h5>Menor que 18,5: Magreza (Abaixo do peso)</h5>
+    <h5>18,5 a 24,9: Peso normal (Eutrófico)</h5>
+    <h5>25,0 a 29,9: Sobrepeso (Pré-obesidade)</h5>
+    <h5>30,0 a 34,9: Obesidade Grau I</h5>
+    <h5>35,0 a 39,9: Obesidade Grau II</h5>
+    <h5>40,0 ou mais: Obesidade Grau III (Mórbida)</h5>
+
+    <script src="./imc.js"></script>
+</body>
+</html>
