@@ -3,5 +3,5 @@ const calcularImc = () =>{
     let alt = Number(document.querySelector('#alt').value)
     let imc = peso/alt**2
     let resultado = document.querySelector('h3')
-    resultado.innerHTML = `Seu IMC é: ${imc}`
+    resultado.innerHTML = `Seu IMC é: ${imc.toFixed(2)}`
 }
